@@ -1,0 +1,23 @@
+{
+  "name": "youtube-mp3-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/classicCokie/youtube-mp3-converter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/classicCokie/youtube-mp3-converter/issues"
+  },
+  "homepage": "https://github.com/classicCokie/youtube-mp3-converter#readme",
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
