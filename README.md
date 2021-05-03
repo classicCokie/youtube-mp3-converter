@@ -39,3 +39,7 @@ This module depends on the ffmpeg library. Make sure you have ffmpeg installed. 
 ```
 
 
+## TODOS
+This module is currently lacking some serious tests. If you wanna extend that, please be my guest.
+
+
