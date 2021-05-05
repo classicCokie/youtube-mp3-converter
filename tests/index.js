@@ -14,3 +14,18 @@ test('Given a Url and Title are provided, it returns the expected mp3 Path', asy
   }
 });
 
+
+// eslint-disable-next-line max-len
+test('Given only a Url is provided, it returns the expected mp3 Path with the youtube title', async function(t) {
+  try {
+    const convertLinkToMp3 = youtubeMp3Converter(__dirname);
+    const pathToMp3 = await convertLinkToMp3('https://www.youtube.com/watch?v=HBxn56l9WcU');
+
+    t.equal(
+        pathToMp3, `${__dirname}/A tiny angry squeaking Frog 🐸 | Super Cute Animals - BBC.mp3`,
+    );
+  } catch (err) {
+    console.error(err);
+  }
+});
+
